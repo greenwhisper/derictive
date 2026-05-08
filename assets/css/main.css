@@ -3364,3 +3364,21 @@ input, select, textarea {
     background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
+#header .logo {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 8rem; /* Adjust size of your logo image here */
+    height: auto;
+    line-height: normal;
+}
+
+/* This line specifically removes the green circle and the "gem" icon */
+#header .logo:before {
+    display: none !important;
+}
+
+#header .logo img {
+    width: 100%;
+    height: auto;
+}
